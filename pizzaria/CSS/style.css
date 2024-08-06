@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.inicio {
+    margin-top: -32px;
+    background-size: 100%, cover;
+    background-attachment: scroll; 
+    background-repeat: no-repeat;
+    height: 3499px;
+}
+
+.menu {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 200%;
+}
+
+.menu ul {
+    background-size: 100%, cover;
+    margin-left: -39px;
+    text-decoration: none;
+    list-style: none;
+    background-color: black;
+}
+
+.menu li {
+    float: left;
+    padding: 16px;
+    color: white;
+    transition: all 0.6s ease;
+    background-color: rgba(0, 0, 0, 0.7);
+    outline: solid 2px black;
+}
+
+.menu li:hover{
+    background-color: rgba(255, 255, 255, 0);
+}
